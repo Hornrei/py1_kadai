@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Kadai No.05</h1>
+   <h2>お問い合わせ</h2>
+   <form action="cgi-bin/thanks.py" method="post">  <!-- actionを使って""の中のファイルにまとめて送られる -->
+        <h2>Email</h2><input type="email" name="email"><br>
+       
+        <h2>お問い合わせ内容</h2>
+        <textarea name="others"></textarea> <br>
+
+        <input type="submit" value="送信">  <!-- value ->ボタンの表示名が変わる -->
+    </form>
+</body>
+</html>
